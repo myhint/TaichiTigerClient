@@ -11,16 +11,16 @@
     <include layout="@layout/appbar" />
 
     <com.taichitiger.client.view.ListItem
-        android:id="@+id/liBalance"
-        app:itemType="4"
-        app:itemIcon="@mipmap/ic_money_cny"
-        app:itemName="账户余额（元）"
-        app:itemContent="0.00"
-        app:itemColor="@color/orange"
-        android:layout_marginTop="32dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+    android:id="@+id/liBalance"
+    app:itemType="4"
+    app:itemIcon="@mipmap/ic_money_cny"
+    app:itemName="账户余额（元）"
+    app:itemContent="0.00"
+    app:itemColor="@color/orange"
+    android:layout_marginTop="32dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
 
     <View
         android:layout_margin="16dp"

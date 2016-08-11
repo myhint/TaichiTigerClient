@@ -42,6 +42,7 @@ public class BalanceActivity extends BaseActivity {
         setContentView(R.layout.activity_balance);
         ButterKnife.bind(this);
 
+        /* todo page title */
         getThis().setSupportActionBar(toolbar);
         getThis().getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
@@ -79,6 +80,7 @@ public class BalanceActivity extends BaseActivity {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btnCode:
+        /* todo code */
                 break;
             case R.id.btnCommit:
                 break;

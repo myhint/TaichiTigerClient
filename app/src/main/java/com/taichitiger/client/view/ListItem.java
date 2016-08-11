@@ -35,7 +35,6 @@ public class ListItem extends BaseItemView {
                 if (itemColor != 0)
                     ((TextView) getView(R.id.tvContent)).setTextColor(getResources().getColor(itemColor));
                 setText(R.id.tvContent, itemContent);
-
                 break;
             case 2:
                 if (itemIcon != 0) setImageRes(R.id.ivIcon, itemIcon);
