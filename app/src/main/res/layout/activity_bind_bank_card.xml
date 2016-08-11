@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bgActivity"
+    android:orientation="vertical"
+    tools:context="com.taichitiger.client.activity.BindBankCardActivity">
+
+    <include layout="@layout/appbar" />
+
+    <LinearLayout
+        android:id="@+id/llBindNew"
+        android:background="@drawable/bg_rec_dash_line"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@mipmap/ic_plus_purple_big"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp" />
+
+        <TextView
+            android:text="@string/text_bind_new_bank_card"
+            android:textColor="@color/textNormal"
+            android:textSize="@dimen/text_size_18"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <View style="@style/divider" />
+
+    <com.xycode.xylibrary.xRefresher.XRefresher
+        android:id="@+id/refresher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

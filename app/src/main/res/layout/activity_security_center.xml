@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.taichitiger.client.activity.SecurityCenterActivity">
+
+    <include layout="@layout/appbar" />
+
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:layout_margin="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="账户安全等级"
+            android:textColor="@color/textNormal"
+            android:textSize="@dimen/text_size_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvSecurityLevel"
+            android:text="高"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size_16"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <com.taichitiger.client.view.ListItem
+        android:id="@+id/itemPhone"
+        app:itemType="2"
+        app:itemIcon="@mipmap/ic_mobile"
+        app:itemName="已绑定手机"
+        app:itemDetail="更换"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View style="@style/divider" />
+
+    <com.taichitiger.client.view.ListItem
+        android:id="@+id/itemPassword"
+        app:itemType="2"
+        app:itemIcon="@mipmap/ic_lock"
+        app:itemName="登录密码"
+        app:itemDetail="修改"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View style="@style/divider" />
+
+    <com.taichitiger.client.view.ListItem
+        android:id="@+id/itemQuestion"
+        app:itemType="2"
+        app:itemIcon="@mipmap/ic_question"
+        app:itemName="安保问题"
+        app:itemDetail="修改"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

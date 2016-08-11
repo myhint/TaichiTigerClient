@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bgActivity"
+    android:orientation="vertical"
+    tools:context="com.taichitiger.client.activity.AboutTigerActivity">
+
+    <include layout="@layout/appbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="92dp"
+                android:layout_height="92dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="32dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/img_logo_tiger" />
+
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvVersion"
+                android:text="当前版本"
+                android:textColor="@color/textLite"
+                android:textSize="@dimen/text_size_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvVersionCheck"
+                android:text="最新"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_13"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <com.taichitiger.client.view.ListItem
+            android:id="@+id/liAboutUs"
+            app:itemIcon="@mipmap/ic_information"
+            app:itemName="关于我们"
+            app:itemType="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View style="@style/divider" />
+
+        <com.taichitiger.client.view.ListItem
+            android:id="@+id/liServicePhone"
+            app:itemIcon="@mipmap/ic_phone"
+            app:itemName="客服热线"
+            app:itemType="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
+
+
+</LinearLayout>

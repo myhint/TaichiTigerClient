@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@drawable/selector_item_white"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="24dp"
+    android:paddingBottom="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="138dp">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sivPic"
+        android:layout_gravity="center"
+        android:padding="0dp"
+        android:layout_centerVertical="true"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        app:placeholderImage="@mipmap/img_holder_img"
+        app:actualImageScaleType="centerCrop" />
+
+    <RelativeLayout
+        android:layout_marginLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:text="本ssd顶戴要FasfDASfasfasfasdkfjajsfkla;jsfkas;jf"
+            android:textSize="@dimen/text_size_18"
+            android:textColor="@color/textDark"
+            android:layout_marginRight="36dp"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/ivRecycle"
+            android:src="@mipmap/ic_recycle_g"
+            android:layout_alignParentRight="true"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+
+        <TextView
+            android:id="@+id/tvContent"
+            android:maxLines="2"
+            android:text="本ssd顶戴要FasfDA;jf"
+            android:textSize="@dimen/text_size_15"
+            android:textColor="@color/textLite"
+            android:layout_marginRight="36dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvMoney"
+            android:text="￥0.0"
+            android:textSize="@dimen/text_size_16"
+            android:textColor="@color/colorAccent"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvMoneyUnit"
+            android:layout_toRightOf="@id/tvMoney"
+            android:text="/小时"
+            android:textSize="@dimen/text_size_15"
+            android:textColor="@color/textNormal"
+            android:layout_marginBottom="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnCommit"
+            android:singleLine="true"
+            android:text="@string/text_buy_now"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="-4dp"
+            android:layout_marginRight="-4dp"
+            style="@style/btn"
+            android:theme="@style/btnCommit"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

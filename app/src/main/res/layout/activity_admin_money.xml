@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.taichitiger.client.activity.AdminMoneyActivity">
+
+    <include layout="@layout/appbar" />
+
+    <com.taichitiger.client.view.ListItem
+        android:id="@+id/itemBalance"
+        app:itemType="1"
+        app:itemName="@string/text_account_balance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View style="@style/divider" />
+
+    <com.taichitiger.client.view.ListItem
+        android:id="@+id/itemBankCard"
+        app:itemType="1"
+        app:itemName="@string/text_bind_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View style="@style/divider" />
+
+    <com.taichitiger.client.view.ListItem
+        android:id="@+id/itemFlow"
+        app:itemType="1"
+        app:itemName="@string/text_flow_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

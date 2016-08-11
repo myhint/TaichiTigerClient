@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@drawable/selector_item_white"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="138dp">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sivPic"
+        android:layout_gravity="center"
+        android:padding="0dp"
+        android:layout_centerVertical="true"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        app:placeholderImage="@mipmap/img_holder_img"
+        app:actualImageScaleType="centerCrop" />
+
+    <RelativeLayout
+        android:layout_marginLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:text="体育錧6月20号约读书"
+            android:textSize="@dimen/text_size_18"
+            android:textColor="@color/textDark"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvContent"
+            android:maxLines="2"
+            android:text="一起运动"
+            android:textSize="@dimen/text_size_16"
+            android:textColor="@color/textNormal"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

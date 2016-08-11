@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bgActivity"
+    android:orientation="vertical"
+    tools:context="com.taichitiger.client.activity.MassageActivity">
+
+    <include layout="@layout/appbar" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabMain"
+        app:tabMode="fixed"
+        app:tabIndicatorHeight="3dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"/>
+
+    <com.xycode.xylibrary.uiKit.views.NoScrollViewPager
+        android:id="@+id/vpMain"
+        app:enableScroll="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

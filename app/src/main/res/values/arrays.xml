@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="main_tabs">
+        <item>首页</item>
+        <item>分类</item>
+        <item>约球</item>
+        <item>我的</item>
+    </string-array>
+
+    <string-array name="favor_tabs">
+        <item>商家</item>
+        <item>健身卡</item>
+        <item>私教</item>
+    </string-array>
+
+    <string-array name="massage_tabs">
+        <item>服务项目</item>
+        <item>技师优选</item>
+    </string-array>
+
+    <array name="main_tabs_icon">
+        <item>@mipmap/ic_home</item>
+        <item>@mipmap/ic_category</item>
+        <item>@mipmap/ic_ball</item>
+        <item>@mipmap/ic_me</item>
+    </array>
+
+    <array name="main_tabs_icon_disable">
+        <item>@mipmap/ic_home_g</item>
+        <item>@mipmap/ic_category_g</item>
+        <item>@mipmap/ic_ball_g</item>
+        <item>@mipmap/ic_me_g</item>
+    </array>
+
+    <array name="favor_tabs_icon">
+        <item>@mipmap/ic_shop</item>
+        <item>@mipmap/ic_gym_card</item>
+        <item>@mipmap/ic_coach</item>
+    </array>
+
+    <array name="favor_tabs_icon_disable">
+        <item>@mipmap/ic_shop_g</item>
+        <item>@mipmap/ic_gym_card_g</item>
+        <item>@mipmap/ic_coach_g</item>
+    </array>
+
+    <array name="massage_tabs_icon">
+        <item>@mipmap/ic_service</item>
+        <item>@mipmap/ic_masseuse</item>
+    </array>
+
+    <array name="massage_tabs_icon_disable">
+        <item>@mipmap/ic_service_g</item>
+        <item>@mipmap/ic_masseuse_g</item>
+    </array>
+
+</resources>

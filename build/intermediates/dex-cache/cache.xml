@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Projects\jianshenTiger\client\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="50f291008dd8fefcd780c1b9a08081dbad070c97">
+        <dex dex="D:\Projects\jianshenTiger\client\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e5c83e2afd568a6ee22f9fb63894d68c2e2fd62d\classes.dex" />
+    </item>
+    <item
+        jar="D:\Projects\jianshenTiger\client\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="D:\Projects\jianshenTiger\client\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.1.1_f8e38775e6d86c8de2c04264acbc19628604af07\classes.dex" />
+    </item>
+    <item
+        jar="D:\Projects\jianshenTiger\client\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="D:\Projects\jianshenTiger\client\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.1.1_962b44d7907841000ee49401fa31c228576d20fe\classes.dex" />
+    </item>
+    <item
+        jar="D:\Program Files\Android\Android Studio\gradle\gradle-2.13\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="D:\Projects\jianshenTiger\client\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.9.0_90d4cbb6dd978946fa0e9c6cb536391572b8808a\classes.dex" />
+    </item>
+    <item
+        jar="D:\Projects\jianshenTiger\client\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.10.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="857099e23430445aeb65cf703d5adf646ff280f1">
+        <dex dex="D:\Projects\jianshenTiger\client\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.fresco-fresco-0.10.0_5ba1b7a5322b0b7063079e5e052466bd6103225f\classes.dex" />
+    </item>
+    <item
+        jar="D:\Projects\jianshenTiger\client\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="D:\Projects\jianshenTiger\client\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_9e5d06c7fb8d7196878f64f96071c86cfcdb53eb\classes.dex" />
+    </item>
+    <item
+        jar="D:\Program Files\Android\Android Studio\gradle\gradle-2.13\caches\modules-2\files-2.1\com.alibaba\fastjson\1.2.14\ebe0a01b96fd0151e9efabcf1b10b3cf37b02a4a\fastjson-1.2.14.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ebe0a01b96fd0151e9efabcf1b10b3cf37b02a4a">
+        <dex dex="D:\Projects\jianshenTiger\client\app\build\intermediates\transforms\dex\debug\folders\1000\10\fastjson-1.2.14_de94cd45e7232e9ba323367b94a5f3062d505a68\classes.dex" />
+    </item>
+    <item
+        jar="D:\Projects\jianshenTiger\client\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="D:\Projects\jianshenTiger\client\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_81b5956acc0a5e0b3fcf0b069dfe4578468b1f05\classes.dex" />
+    </item>
+    <item
+        jar="D:\Projects\jianshenTiger\client\app\build\intermediates\exploded-aar\com.xycode.xylibrary\xylibrary\0.2.6\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="bfb52e0693731df51aaa36556e4b0e7250b8bd54">
+        <dex dex="D:\Projects\jianshenTiger\client\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.xycode.xylibrary-xylibrary-0.2.6_25a5e6b2165f5572537316072636aab7b4d194ba\classes.dex" />
+    </item>
+    <item
+        jar="D:\Projects\jianshenTiger\client\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="e14b75aff890483bdfbddb321b0e8b56daf9c3f1">
+        <dex dex="D:\Projects\jianshenTiger\client\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_458d1e7fbcfa0ff923bb89655068701edeaa343b\classes.dex" />
+    </item>
+    <item
+        jar="D:\Program Files\Android\Android Studio\gradle\gradle-2.13\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="D:\Projects\jianshenTiger\client\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-7.0.1_058fb464d75f90b9d07ffdc06405ef3ad58b7ed4\classes.dex" />
+    </item>
+    <item
+        jar="D:\Projects\jianshenTiger\client\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="D:\Projects\jianshenTiger\client\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_d3ad824b0cfa81f82020dfdfba1a79744bfe486f\classes.dex" />
+    </item>
+    <item
+        jar="D:\Program Files\Android\Android Studio\gradle\gradle-2.13\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="D:\Projects\jianshenTiger\client\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-android-1.1.4_e92dc9bc76846cbf569433ccc919f00e88c41c3d\classes.dex" />
+    </item>
+    <item
+        jar="D:\Projects\jianshenTiger\client\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.10.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="6e1ed00013584399dbe27d45ac1fd6a9828c9fca">
+        <dex dex="D:\Projects\jianshenTiger\client\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.fresco-imagepipeline-0.10.0_ce513c6c789d65ba39f578f588958e66cf8d22a6\classes.dex" />
+    </item>
+    <item
+        jar="D:\Projects\jianshenTiger\client\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.10.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="65f0c887ee1f57cd0ea65b228e39b7f35372b798">
+        <dex dex="D:\Projects\jianshenTiger\client\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.fresco-drawee-0.10.0_77f258972ef732ed26f7f2754db9c23150c7e09e\classes.dex" />
+    </item>
+    <item
+        jar="D:\Projects\jianshenTiger\client\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="D:\Projects\jianshenTiger\client\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_6027da085f62dc9f81e36da2d552caf9a97d5770\classes.dex" />
+    </item>
+    <item
+        jar="D:\Projects\jianshenTiger\client\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.10.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="5e88a2a26ac71cd7f8fd8bd9f9381fa06d1a47a3">
+        <dex dex="D:\Projects\jianshenTiger\client\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.fresco-imagepipeline-base-0.10.0_fb51860f028aa2cb84f70cbde04d8095026abfe3\classes.dex" />
+    </item>
+    <item
+        jar="D:\Projects\jianshenTiger\client\app\build\intermediates\exploded-aar\com.android.support\design\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="D:\Projects\jianshenTiger\client\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.1.1_4dc60f30c01c12e69e5a5250fd1f6fa82c8491b5\classes.dex" />
+    </item>
+    <item
+        jar="D:\Projects\jianshenTiger\client\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="D:\Projects\jianshenTiger\client\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.1_7353b374789078658292ee84d00b4b6913128e54\classes.dex" />
+    </item>
+    <item
+        jar="D:\Program Files\Android\Android Studio\gradle\gradle-2.13\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.0\76d5ab52302434606c732539314290db91ebf25\okhttp-3.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="076d5ab52302434606c732539314290db91ebf25">
+        <dex dex="D:\Projects\jianshenTiger\client\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.4.0_6918fc442003e0aa9836f000be6f7dee8049063b\classes.dex" />
+    </item>
+    <item
+        jar="D:\Projects\jianshenTiger\client\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.10.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d323cf4983bdfce7136a1ce5e32710e1b36b20fe">
+        <dex dex="D:\Projects\jianshenTiger\client\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.fresco-fbcore-0.10.0_397cc8611c5a654b7db67d887c6a65026379870e\classes.dex" />
+    </item>
+    <item
+        jar="D:\Program Files\Android\Android Studio\gradle\gradle-2.13\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\Projects\jianshenTiger\client\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_f75a96d1de8fbf94dfb3e4855afda86ee7522518\classes.dex" />
+    </item>
+    <item
+        jar="D:\Projects\jianshenTiger\client\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="D:\Projects\jianshenTiger\client\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.1.1_a6a2275742ab681db4f99173357fed1c14b6158a\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="D:\Projects\jianshenTiger\client\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.1_3bf9a314fdfe5dd4e81fb78d39ac80f5acac90fa\classes.dex" />
+    </item>
+
+</items>

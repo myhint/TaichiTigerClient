@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f36523</color>
+    <color name="colorPrimaryDark">#f36523</color>
+    <color name="colorAccent">#f36523</color>
+    <color name="colorAccentDark">#ae491a</color>
+    <color name="white">#FFF</color>
+
+    <color name="starOn">#eabc02</color>
+    <color name="orange">#fa9222</color>
+    <color name="blue">#2c9ed5 </color>
+    <color name="red">#fe5252 </color>
+
+
+    <!-- item color -->
+    <color name="btnCommit">#f36523</color>
+    <color name="btnOption">#8c97cb</color>
+
+    <!-- background color -->
+    <color name="bgDivider">#CCC</color>
+    <color name="bgActivity">#FFF</color>
+
+    <!-- text color -->
+    <color name="textDark">#333</color>
+    <color name="textNormal">#666</color>
+    <color name="textLite">#999</color>
+    <color name="textWhite">#FFF</color>
+
+    <color name="bgWhite">#FFF</color>
+</resources>

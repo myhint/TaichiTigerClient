@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgActivity"
+    android:orientation="vertical"
+    tools:context="com.taichitiger.client.activity.AddAddressActivity">
+
+    <include layout="@layout/appbar" />
+
+    <View
+        android:layout_marginTop="16dp"
+        style="@style/divider" />
+
+    <RelativeLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tlPhone"
+            android:hint="手机号"
+            android:textColorHint="@color/textLite"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:textSize="@dimen/text_size_15"
+                android:textColor="@color/textNormal"
+                android:background="@null"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </RelativeLayout>
+
+    <View style="@style/divider" />
+
+    <RelativeLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tlCode"
+            android:hint="验证码"
+            android:textColorHint="@color/textLite"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:textSize="@dimen/text_size_15"
+                android:textColor="@color/textNormal"
+                android:background="@null"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </RelativeLayout>
+
+    <View style="@style/divider" />
+
+    <RelativeLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tlPassword"
+            android:hint="密码由1-16位数字或者字母组成"
+            android:textColorHint="@color/textLite"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:textSize="@dimen/text_size_15"
+                android:textColor="@color/textNormal"
+                android:background="@null"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:lines="10"
+                android:gravity="top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </RelativeLayout>
+
+    <View style="@style/divider" />
+
+        <Button
+            android:id="@+id/btnCommit"
+            android:enabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btnFullHeight"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/text_commit"
+            style="@style/btn"
+            android:theme="@style/btnCommitFull" />
+
+
+</LinearLayout>

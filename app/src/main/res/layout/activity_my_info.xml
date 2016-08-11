@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.taichitiger.client.activity.MyInfoActivity">
+
+    <include layout="@layout/appbar" />
+
+    <com.taichitiger.client.view.ListItem
+        android:id="@+id/itemHead"
+        app:itemType="1"
+        app:itemName="会员头像"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View style="@style/divider" />
+
+    <com.taichitiger.client.view.ListItem
+        android:id="@+id/itemAccount"
+        app:itemType="1"
+        app:itemName="会员账号"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View style="@style/divider" />
+
+
+    <com.taichitiger.client.view.ListItem
+        android:id="@+id/itemNickName"
+        app:itemType="1"
+        app:itemName="会员昵称"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View style="@style/divider" />
+
+
+    <com.taichitiger.client.view.ListItem
+        android:id="@+id/itemSex"
+        app:itemType="1"
+        app:itemName="性别"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View style="@style/divider" />
+
+
+    <com.taichitiger.client.view.ListItem
+        android:id="@+id/itemBarCode"
+        app:itemType="1"
+        app:itemName="我的二维码名片"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View style="@style/divider" />
+
+
+    <com.taichitiger.client.view.ListItem
+        android:id="@+id/itemAddress"
+        app:itemType="1"
+        app:itemName="常用地址"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

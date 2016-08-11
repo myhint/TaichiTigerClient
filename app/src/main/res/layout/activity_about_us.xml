@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgActivity"
+    android:orientation="vertical"
+    tools:context="com.taichitiger.client.activity.AboutUsActivity">
+
+    <include layout="@layout/appbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/img_logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="欢迎组织兴趣组织、线下运动团体、企业、家庭等团体入驻！欢迎组织兴趣组织、线下运动团体、企业、家庭等团体入驻！欢迎组织兴趣组织、线下运动团体、企业、家庭等团体入驻！"
+            android:textColor="@color/textLite"
+            android:textSize="@dimen/text_size_13" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="32dp"
+            android:text="电话：400-180-1800"
+            android:textColor="@color/textNormal"
+            android:textSize="@dimen/text_size_15" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:text="地址：东莞南城新基创意产业园A-180"
+            android:textColor="@color/textNormal"
+            android:textSize="@dimen/text_size_15" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

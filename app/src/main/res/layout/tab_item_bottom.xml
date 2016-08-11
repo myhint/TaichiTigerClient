@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:padding="4dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivTab"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:padding="2dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/tvTab"
+        android:text=""
+        android:textSize="12dp"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/ivTab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvUnread"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_toRightOf="@id/ivTab"
+        android:layout_marginLeft="-6dp"
+        android:background="@mipmap/img_dot_orange"
+        android:visibility="invisible" />
+
+</RelativeLayout>

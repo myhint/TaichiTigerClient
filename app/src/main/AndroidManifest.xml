@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.taichitiger.client">
+
+    <!-- 项目权限 -->
+    <!-- 相机 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 录音 -->
+    <!-- <uses-permission android:name="android.permission.RECORD_AUDIO" /> -->
+    <!-- 震动 -->
+    <!-- <uses-permission android:name="android.permission.VIBRATE" /> -->
+    <!-- 网络 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 访问网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 访问WIFI状态 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 写入外部存储 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 访问精确定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 修改音频设置 -->
+    <!-- <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" /> -->
+    <!-- 读取手机状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 允许读写系统设置项 使用设置时需要 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <!-- <uses-permission android:name="android.permission.WAKE_LOCK" /> -->
+    <!-- 读取启动设置 -->
+    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" /> -->
+    <!-- 连续广播（允许一个程序收到广播后快速收到下一个广播） -->
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="nosensor"
+            android:windowSoftInputMode="stateHidden|adjustNothing"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.LoginActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.RegisterActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.ResetPasswordActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.AddAddressActivity" />
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.AdminAddressActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.AdminMoneyActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.AboutUsActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.AboutTigerActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.BalanceActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.BindBankCardActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.BindNewBankCardActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.FlowRecordActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.GymActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.MassageActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.MyFavorActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.SecurityCenterActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.EventAddTeamActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.EventAddTeamCommitActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.EventListActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.MyInfoActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.PhotoActivity" />
+
+
+    </application>
+
+</manifest>

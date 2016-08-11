@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgActivity"
+    android:orientation="vertical"
+    tools:context="com.taichitiger.client.activity.EventAddTeamActivity">
+
+    <ImageView
+        android:scaleType="fitCenter"
+        android:background="@mipmap/img_tiger_login"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="360dp" />
+
+    <TextView
+        android:text="手机快速登录>"
+        android:textSize="@dimen/text_size_13"
+        android:id="@+id/tvFastLogin"
+        android:layout_marginTop="96dp"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tlAccount"
+        android:hint="手机号 Tele"
+        android:textColorHint="@color/colorAccent"
+        android:textColor="@color/textNormal"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@id/tvFastLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:textSize="@dimen/text_size_15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tlPassword"
+        android:hint="密码 Password"
+        android:textColorHint="@color/colorAccent"
+        android:textColor="@color/textNormal"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@+id/tlAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:textSize="@dimen/text_size_15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/ivShowPassword"
+        android:src="@mipmap/ic_eye_close"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/tlPassword"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="24dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp" />
+
+        <Button
+            android:id="@+id/btnCommit"
+            android:background="@drawable/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btnFullHeight"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_below="@+id/tlPassword"
+            android:text="登录"
+            android:textColor="@color/textWhite"
+            android:textSize="@dimen/text_size_16" />
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="登录表示你已同意"
+            android:textColor="@color/textLite"
+            android:textSize="@dimen/text_size_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvAgreement"
+            android:text="@string/text_tiger_agreement"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size_12"
+            android:background="@drawable/selector_item_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>

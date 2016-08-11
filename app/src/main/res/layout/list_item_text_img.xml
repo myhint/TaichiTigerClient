@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/selector_item_white"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:text=""
+        android:textSize="18dp"
+        android:layout_margin="16dp"
+        android:textColor="@color/textLite"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sivPicRound"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/ivArrow"
+        app:roundingBorderWidth="1dp"
+        app:roundingBorderColor="@color/grayLite"
+        app:roundAsCircle="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="52dp"
+        android:layout_height="52dp" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sivPic"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/ivArrow"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="52dp"
+        android:layout_height="52dp" />
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:text=""
+        android:textSize="18dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/ivArrow"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/ivArrow"
+        android:src="@mipmap/ic_arrow_right_g2"
+        android:layout_alignParentRight="true"
+        android:layout_margin="12dp"
+        android:padding="0dp"
+        android:layout_centerVertical="true"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:scaleType="fitCenter" />
+
+</RelativeLayout>

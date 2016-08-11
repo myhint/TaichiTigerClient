@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_item_white"
+    android:orientation="vertical"
+    android:paddingBottom="24dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sivPic"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:padding="0dp"
+            app:placeholderImage="@mipmap/img_holder_img"
+            app:actualImageScaleType="centerCrop" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/textDark"
+                android:textSize="@dimen/text_size_18" />
+
+            <ImageView
+                android:id="@+id/ivSex"
+                android:src="@mipmap/ic_ball"
+                android:layout_toRightOf="@+id/tvName"
+                android:layout_alignBottom="@+id/tvName"
+                android:layout_marginLeft="4dp"
+                android:padding="2dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/tvCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/ivSex"
+                android:layout_alignBottom="@+id/tvName"
+                android:layout_marginLeft="4dp"
+                android:layout_marginBottom="2dp"
+                android:singleLine="true"
+                android:text="已接0单"
+                android:textColor="@color/textLite"
+                android:textSize="@dimen/text_size_13" />
+
+            <TextView
+                android:id="@+id/tvType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:singleLine="true"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:background="@drawable/shape_round_line_accent"
+                android:text="称号"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_15" />
+
+            <android.support.v7.widget.AppCompatRatingBar
+                android:id="@+id/ratingBar"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvName"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="2dp"
+                android:isIndicator="true"
+                android:max="50"
+                android:progress="48"
+                android:progressBackgroundTintMode="@color/gray"
+                android:progressTint="@color/starOn"
+                android:secondaryProgressTint="@android:color/transparent"
+                android:stepSize="1" />
+
+            <TextView
+                android:id="@+id/tvStars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ratingBar"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/ratingBar"
+                android:text="4.8分"
+                android:textColor="@color/starOn"
+                android:textSize="@dimen/text_size_13" />
+
+            <TextView
+                android:id="@+id/tvContent"
+                android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                android:maxLines="2"
+                android:text=""
+                android:textColor="@color/textLite"
+                android:textSize="@dimen/text_size_13" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

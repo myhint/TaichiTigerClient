@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/selector_item_white"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="12dp"
+        android:padding="2dp"
+        android:layout_centerVertical="true"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:text=""
+        android:textSize="@dimen/text_size_16"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dp"
+        android:layout_toRightOf="@+id/ivIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:text=""
+        android:textSize="@dimen/text_size_16"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvDetail"
+        android:text=""
+        android:textSize="@dimen/text_size_16"
+        android:textColor="@color/textLite"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/ivArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/ivArrow"
+        android:src="@mipmap/ic_arrow_right_g2"
+        android:layout_alignParentRight="true"
+        android:layout_margin="12dp"
+        android:padding="0dp"
+        android:layout_centerVertical="true"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:scaleType="fitCenter" />
+
+</RelativeLayout>
