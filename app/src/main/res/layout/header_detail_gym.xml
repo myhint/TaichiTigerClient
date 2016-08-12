@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sivPic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:padding="0dp"
+            android:src="@mipmap/jianshenfangpic"
+            app:actualImageScaleType="fitXY"
+            app:placeholderImage="@mipmap/img_holder_img"
+            app:viewAspectRatio="2" />
+
+        <ImageView
+            android:id="@+id/ivFavor"
+            android:src="@mipmap/ic_heart_w"
+            android:layout_alignParentRight="true"
+            android:layout_margin="16dp"
+            android:padding="4dp"
+            android:layout_width="36dp"
+            android:layout_height="36dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/side_margin"
+        android:layout_marginRight="@dimen/side_margin"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:text="太极虎健身（击垮）"
+            android:textColor="@color/textDark"
+            android:textSize="@dimen/text_size_16" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatRatingBar
+                android:id="@+id/ratingBar"
+                style="@style/ratingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvName"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="2dp"
+                android:progress="50" />
+
+            <TextView
+                android:id="@+id/tvStars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ratingBar"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/ratingBar"
+                android:text="5.0分"
+                android:textColor="@color/starOn"
+                android:textSize="@dimen/text_size_13" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/divider"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:id="@+id/ivLocation"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerVertical="true"
+                android:padding="4dp"
+                android:src="@mipmap/ic_location_g" />
+
+            <TextView
+                android:id="@+id/tvAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="12dp"
+                android:layout_toLeftOf="@+id/ivDial"
+                android:layout_toRightOf="@+id/ivLocation"
+                android:gravity="center_vertical"
+                android:maxLines="2"
+                android:text="中国东莞市/广东省国东莞市/广东省国东莞市/广东省国省"
+                android:textColor="@color/textNormal"
+                android:textSize="@dimen/text_size_15" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="36dp"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@+id/ivDial"
+                android:background="@color/bgDivider" />
+
+            <ImageView
+                android:id="@+id/ivDial"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="2dp"
+                android:src="@mipmap/ic_dial" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingBottom="8dp"
+            android:text="健身房简介"
+            android:textColor="@color/textLite"
+            android:textSize="@dimen/text_size_13" />
+
+        <View style="@style/divider" />
+
+        <TextView
+            android:id="@+id/tvIntroduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingBottom="8dp"
+            android:text="健身房简介健身房简介健身房简介健身房简介,健身房简介健身房简介健身房简介健身房,简介健身房简介健身房简,介健身房简介,健身房简介健身房简介"
+            android:textColor="@color/textNormal"
+            android:textSize="@dimen/text_size_13" />
+
+        <TextView
+            android:id="@+id/tvGymCardCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingBottom="8dp"
+            android:text="健身卡（2）"
+            android:textColor="@color/textLite"
+            android:textSize="@dimen/text_size_13" />
+
+        <View style="@style/divider" />
+
+
+    </LinearLayout>
+
+    <include android:id="@+id/itemGymCard1" layout="@layout/item_gym_card" />
+    <include android:id="@+id/itemGymCard2" layout="@layout/item_gym_card" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/side_margin"
+        android:layout_marginRight="@dimen/side_margin"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingBottom="8dp"
+            android:text="健身房周课程"
+            android:textColor="@color/textLite"
+            android:textSize="@dimen/text_size_13" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sivSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="0dp"
+            app:actualImageScaleType="fitCenter"
+            app:placeholderImage="@mipmap/img_holder_img" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatRatingBar
+                android:id="@+id/ratingBar2"
+                style="@style/ratingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvName"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="2dp"
+                android:progress="50" />
+
+            <TextView
+                android:id="@+id/tvStars2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ratingBar"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/ratingBar"
+                android:text="5.0分"
+                android:textColor="@color/starOn"
+                android:textSize="@dimen/text_size_13" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include android:id="@+id/itemComment1" layout="@layout/item_comment" />
+    <include android:id="@+id/itemComment2" layout="@layout/item_comment" />
+
+    <LinearLayout
+        android:id="@+id/llMore"
+        android:orientation="vertical"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View style="@style/divider" />
+
+        <TextView
+            android:id="@+id/tvMore"
+            android:text="查看全部23条评价"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size_13"
+            android:padding="12dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

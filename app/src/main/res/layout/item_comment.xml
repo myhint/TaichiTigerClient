@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_item_white"
+    android:orientation="vertical"
+    android:id="@+id/llItem"
+    android:paddingBottom="12dp"
+    android:paddingLeft="@dimen/side_margin"
+    android:paddingRight="@dimen/side_margin"
+    android:paddingTop="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sivPic"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:padding="0dp"
+            app:roundAsCircle="true"
+            app:actualImageScaleType="centerCrop"
+            app:placeholderImage="@mipmap/ic_holder_head" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:singleLine="true"
+                android:text="adsasdfa"
+                android:textColor="@color/textDark"
+                android:textSize="@dimen/text_size_16" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatRatingBar
+                    android:id="@+id/ratingBar"
+                    style="@style/ratingBar.Small"
+                    android:progress="30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvName"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp" />
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center_vertical"
+                    android:text="2016-08-10"
+                    android:textColor="@color/textLite"
+                    android:textSize="@dimen/text_size_12" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvComment"
+        android:text="2016-08-10"
+        android:textColor="@color/textNormal"
+        android:textSize="@dimen/text_size_14"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.xycode.xylibrary.uiKit.views.MultiImageView
+        android:id="@+id/mivComment"
+        app:maxColumn="5"
+        app:maxRow="1"
+        app:singleImageSize="normal"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

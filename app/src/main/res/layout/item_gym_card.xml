@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_item_white"
+    android:orientation="vertical"
+    android:paddingBottom="12dp"
+    android:paddingLeft="@dimen/side_margin"
+    android:paddingRight="@dimen/side_margin"
+    android:paddingTop="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sivPic"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:padding="0dp"
+        app:placeholderImage="@mipmap/img_holder_img"
+        app:actualImageScaleType="centerCrop" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/textDark"
+            android:textSize="@dimen/text_size_18" />
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:weightSum="7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/tvSalePrice"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:singleLine="true"
+                android:text="￥100.0"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_14" />
+
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="门店价:￥56.6"
+                android:textColor="@color/textNormal"
+                android:textSize="@dimen/text_size_12" />
+            <TextView
+                android:id="@+id/tvSoldCount"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="已售 5330"
+                android:textColor="@color/textNormal"
+                android:textSize="@dimen/text_size_12" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

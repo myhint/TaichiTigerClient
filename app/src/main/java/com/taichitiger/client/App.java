@@ -18,6 +18,7 @@ import okhttp3.Response;
  * Created by XY on 2016-07-27.
  * add gitLab
  */
+
 public class App extends Application {
 
     private static App instance = null;

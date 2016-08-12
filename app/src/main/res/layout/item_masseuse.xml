@@ -19,8 +19,8 @@
             android:layout_width="100dp"
             android:layout_height="75dp"
             android:padding="0dp"
-            app:placeholderImage="@mipmap/img_holder_img"
-            app:actualImageScaleType="centerCrop" />
+            app:actualImageScaleType="centerCrop"
+            app:placeholderImage="@mipmap/img_holder_img" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -38,22 +38,22 @@
 
             <ImageView
                 android:id="@+id/ivSex"
-                android:src="@mipmap/ic_ball"
-                android:layout_toRightOf="@+id/tvName"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
                 android:layout_alignBottom="@+id/tvName"
                 android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/tvName"
                 android:padding="2dp"
-                android:layout_width="20dp"
-                android:layout_height="20dp" />
+                android:src="@mipmap/ic_ball" />
 
             <TextView
                 android:id="@+id/tvCount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@+id/ivSex"
                 android:layout_alignBottom="@+id/tvName"
-                android:layout_marginLeft="4dp"
                 android:layout_marginBottom="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/ivSex"
                 android:singleLine="true"
                 android:text="已接0单"
                 android:textColor="@color/textLite"
@@ -64,12 +64,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:singleLine="true"
+                android:background="@drawable/shape_round_line_accent"
+                android:paddingBottom="4dp"
                 android:paddingLeft="4dp"
                 android:paddingRight="4dp"
                 android:paddingTop="4dp"
-                android:paddingBottom="4dp"
-                android:background="@drawable/shape_round_line_accent"
+                android:singleLine="true"
                 android:text="称号"
                 android:textColor="@color/colorAccent"
                 android:textSize="@dimen/text_size_15" />
@@ -84,7 +84,7 @@
                 android:layout_marginTop="2dp"
                 android:isIndicator="true"
                 android:max="50"
-                android:progress="48"
+                android:progress="50"
                 android:progressBackgroundTintMode="@color/gray"
                 android:progressTint="@color/starOn"
                 android:secondaryProgressTint="@android:color/transparent"
@@ -97,15 +97,15 @@
                 android:layout_alignBottom="@+id/ratingBar"
                 android:layout_marginLeft="8dp"
                 android:layout_toRightOf="@+id/ratingBar"
-                android:text="4.8分"
+                android:text="5.0分"
                 android:textColor="@color/starOn"
                 android:textSize="@dimen/text_size_13" />
 
             <TextView
                 android:id="@+id/tvContent"
                 android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
                 android:maxLines="2"
                 android:text=""
                 android:textColor="@color/textLite"
