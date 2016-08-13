@@ -3,7 +3,5 @@
     <solid android:color="@color/white" />
     <stroke
         android:width="1px"
-        android:color="@color/grayLite"
-        android:dashWidth="2dp"
-        android:dashGap="2dp" />
+        android:color="@color/grayLite"/>
 </shape>

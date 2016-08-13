@@ -43,16 +43,16 @@
     </RelativeLayout>
 
     <LinearLayout
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="0dp"
         android:weightSum="7"
         android:gravity="center_vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/itemHeight"
         android:orientation="horizontal"
         android:padding="4dp">
 
         <ImageView
-            android:src="@mipmap/ic_money"
+            android:src="@mipmap/ic_appointment"
             android:layout_weight="1"
             android:gravity="left"
             android:layout_width="0dp"
@@ -133,7 +133,7 @@
                 android:gravity="center"
                 android:text="@string/text_masseuse_high"
                 android:textColor="@color/textLite"
-                android:textSize="@dimen/text_size_15"
+                android:textSize="@dimen/text_size_14"
                 android:layout_margin="2dp"
                 android:padding="8dp"
                 android:layout_weight="1"
@@ -146,7 +146,7 @@
                 android:gravity="center"
                 android:text="@string/text_masseuse_special"
                 android:textColor="@color/textLite"
-                android:textSize="@dimen/text_size_15"
+                android:textSize="@dimen/text_size_14"
                 android:layout_margin="2dp"
                 android:padding="8dp"
                 android:layout_weight="1"
@@ -159,7 +159,7 @@
                 android:gravity="center"
                 android:text="@string/text_masseuse_expert"
                 android:textColor="@color/textLite"
-                android:textSize="@dimen/text_size_15"
+                android:textSize="@dimen/text_size_14"
                 android:layout_marginLeft="2dp"
                 android:padding="8dp"
                 android:layout_weight="1"
@@ -171,7 +171,6 @@
 
 
     </LinearLayout>
-
 
     <View style="@style/divider" />
 
@@ -198,131 +197,34 @@
             android:layout_height="32dp">
 
             <com.taichitiger.client.view.ViewItem
+                app:itemCount="0"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"/>
 
         </LinearLayout>
 
+    </LinearLayout>
+
+    <View style="@style/divider" />
+    <LinearLayout
+        android:layout_marginLeft="@dimen/side_margin"
+        android:layout_marginRight="@dimen/side_margin"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/itemHeight">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingBottom="0dp"
+            android:text="附加项目"
+            android:textColor="@color/textNormal"
+            android:textSize="@dimen/text_size_15" />
 
     </LinearLayout>
 
-
-        <TextView
-            android:id="@+id/tvSchedule"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="12dp"
-            android:text="健身房简介健身房简介"
-            android:textColor="@color/textNormal"
-            android:textSize="@dimen/text_size_13" />
-
-        <com.facebook.drawee.view.SimpleDraweeView
-            android:id="@+id/sivSchedule"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:padding="0dp"
-            app:actualImageScaleType="fitCenter"
-            app:placeholderImage="@mipmap/img_holder_img" />
-
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:paddingBottom="8dp"
-            android:text="教练介绍"
-            android:textColor="@color/textLite"
-            android:textSize="@dimen/text_size_13" />
-
-        <View style="@style/divider" />
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:paddingBottom="8dp"
-            android:text="室内图片"
-            android:textColor="@color/textLite"
-            android:textSize="@dimen/text_size_13" />
-
-        <com.facebook.drawee.view.SimpleDraweeView
-            android:id="@+id/sivPicDetail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:padding="0dp"
-            app:actualImageScaleType="fitCenter"
-            app:placeholderImage="@mipmap/img_holder_img" />
-        <com.facebook.drawee.view.SimpleDraweeView
-
-            android:id="@+id/sivPicDetail2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:padding="0dp"
-            app:actualImageScaleType="fitCenter"
-            app:placeholderImage="@mipmap/img_holder_img" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:paddingBottom="8dp"
-            android:text="购买须知"
-            android:textColor="@color/textLite"
-            android:textSize="@dimen/text_size_13" />
-
-        <View style="@style/divider" />
-
-            <TextView
-                android:layout_marginTop="16dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:singleLine="true"
-                android:text="有效期"
-                android:textColor="@color/textDark"
-                android:textSize="@dimen/text_size_15" />
-
-            <TextView
-                android:id="@+id/tvAvailableDate"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp"
-                android:layout_gravity="center_vertical"
-                android:singleLine="true"
-                android:text="2016年12月27日至2016年12月28日"
-                android:textColor="@color/colorAccent"
-                android:textSize="@dimen/text_size_13" />
-
-            <TextView
-                android:layout_marginTop="16dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:singleLine="true"
-                android:text="有效期"
-                android:textColor="@color/textDark"
-                android:textSize="@dimen/text_size_15" />
-
-            <TextView
-                android:id="@+id/tvUseDetail"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp"
-                android:layout_gravity="center_vertical"
-                android:singleLine="true"
-                android:text="2016年12月27日至2016年12月28日"
-                android:textColor="@color/colorAccent"
-                android:textSize="@dimen/text_size_13" />
-
+    <View style="@style/divider" />
 
 </LinearLayout>

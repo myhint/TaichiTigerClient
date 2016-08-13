@@ -40,6 +40,7 @@ public class ListItem extends BaseItemView {
                 if (itemIcon != 0) setImageRes(R.id.ivIcon, itemIcon);
                 setText(R.id.tvContent, itemContent);
                 setText(R.id.tvDetail, itemDetail);
+                setVisibilility(R.id.ivIcon, itemVisible);
                 break;
             default:
                 setText(R.id.tvContent, itemContent);

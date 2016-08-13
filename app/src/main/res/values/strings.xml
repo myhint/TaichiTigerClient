@@ -47,4 +47,9 @@
     <string name="text_masseuse_high">高级技师</string>
     <string name="text_masseuse_special">特技技师</string>
     <string name="text_masseuse_expert">专家技师</string>
+    <string name="title_event_enroll">我要报名</string>
+    <string name="title_order_commit">提交订单</string>
+    <string name="text_order_commit">提交订单</string>
+    <string name="text_bound_phone">您绑定的手机号</string>
+    <string name="text_use_new_phone">使用新号码</string>
 </resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgActivity"
+    android:orientation="vertical"
+    tools:context="com.taichitiger.client.activity.EventEnrollActivity">
+
+    <include layout="@layout/appbar" />
+
+    <View
+        style="@style/divider"
+        android:layout_marginTop="16dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tlName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="@dimen/side_margin"
+        android:layout_marginRight="@dimen/side_margin"
+        android:layout_marginTop="4dp"
+        android:hint="姓名"
+        android:textColor="@color/textNormal">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@null"
+            android:gravity="top"
+            android:textColorHint="@color/textLite"
+            android:textSize="@dimen/text_size_15" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <View style="@style/divider" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tlPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="@dimen/side_margin"
+        android:layout_marginRight="@dimen/side_margin"
+        android:layout_marginTop="4dp"
+        android:hint="手机"
+        android:textColor="@color/textNormal">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@null"
+            android:gravity="top"
+            android:textColorHint="@color/textLite"
+            android:textSize="@dimen/text_size_15" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <View style="@style/divider" />
+
+    <Button
+        android:id="@+id/btnCommit"
+        style="@style/btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btnFullHeight"
+        android:layout_marginLeft="@dimen/side_margin"
+        android:layout_marginRight="@dimen/side_margin"
+        android:layout_marginTop="24dp"
+        android:text="报名"
+        android:theme="@style/btnCommitFull" />
+
+
+</LinearLayout>

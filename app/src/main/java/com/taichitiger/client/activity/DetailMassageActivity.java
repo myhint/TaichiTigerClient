@@ -47,7 +47,8 @@ public class DetailMassageActivity extends BaseActivity {
             }
         };
 
-        adapter.addHeader(1, R.layout.header_detail_coach);
+        adapter.addHeader(1, R.layout.header_detail_massage);
+        adapter.setFooter( R.layout.footer_detail_massage);
         refresher.setup(getThis(), adapter, false, new XRefresher.OnSwipeListener() {
             @Override
             public void onRefresh() {

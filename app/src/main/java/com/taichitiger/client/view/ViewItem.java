@@ -4,7 +4,6 @@ import android.content.Context;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.AttributeSet;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
 
@@ -27,10 +26,9 @@ public class ViewItem extends BaseItemView {
     @Override
     protected void onFinishInflate() {
         super.onFinishInflate();
-        LayoutInflater.from(getContext()).inflate(getLayoutId(), this, true);
         switch (itemType) {
             case 0:
-                setText(R.id.etAmount, "" + itemCount);
+                setText(R.id.etAmount, String.valueOf(itemCount));
                 final EditText editText = getView(R.id.etAmount);
                 OnClickListener clickListener = new OnClickListener() {
                     @Override
@@ -43,10 +41,12 @@ public class ViewItem extends BaseItemView {
                         }
                         switch (view.getId()) {
                             case R.id.tvPlus:
-                                editText.setText(++count+"");
+                                itemCount = ++count;
+                                editText.setText(String.valueOf(itemCount));
                                 break;
                             case R.id.tvMinus:
-                                editText.setText((count < 1 ? 0 : --count)+"");
+                                itemCount = (count < 1 ? 0 : --count);
+                                editText.setText(String.valueOf(itemCount));
                                 break;
                             default:
                                 break;
@@ -69,7 +69,8 @@ public class ViewItem extends BaseItemView {
                     @Override
                     public void afterTextChanged(Editable editable) {
                         if (editable.toString().isEmpty()) {
-                            editText.setText("0");
+                            itemCount = 0;
+                            editText.setText(String.valueOf(itemCount));
                         }
                     }
                 });
@@ -89,5 +90,8 @@ public class ViewItem extends BaseItemView {
         }
     }
 
+    public int getItemCount() {
+        return itemCount;
+    }
 
 }

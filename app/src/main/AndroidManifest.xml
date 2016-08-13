@@ -169,6 +169,16 @@
         <activity
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="nosensor"
+            android:name=".activity.EventEnrollActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.OrderCommitActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
             android:name=".activity.MyInfoActivity" />
 
         <activity
