@@ -88,7 +88,7 @@ public class MyFavorActivity extends BaseActivity {
     private void setTabs() {
 
         String[] titles = getResources().getStringArray(R.array.favor_tabs);
-        tabItems = new TabItems(getThis(), tabMain, R.layout.tab_item_favor, titles, R.array.favor_tabs_icon_disable, R.array.favor_tabs_icon, R.color.btnOption, R.color.textLite);
+        tabItems = new TabItems(getThis(), tabMain, R.layout.tab_item_favor, titles, R.array.favor_tabs_icon_disable, R.array.favor_tabs_icon, R.color.colorOption, R.color.textLite);
 
             tabMain.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
                 @Override

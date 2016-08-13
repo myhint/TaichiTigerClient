@@ -23,7 +23,7 @@
 
     <!--buttons-->
     <style name="btnCommit" parent="buttonBase">
-        <item name="colorAccent">@color/btnCommit</item>
+        <item name="colorAccent">@color/colorCommit</item>
         <item name="colorButtonNormal">@color/gray</item>
         <item name="android:textColor">@color/textWhite</item>
     </style>
@@ -34,7 +34,7 @@
     </style>
 
     <style name="btnOption" parent="buttonBase">
-        <item name="colorAccent">@color/btnOption</item>
+        <item name="colorAccent">@color/colorOption</item>
         <item name="colorButtonNormal">@color/gray</item>
         <item name="android:textColor">@color/textWhite</item>
     </style>

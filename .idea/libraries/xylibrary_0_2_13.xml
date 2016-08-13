@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="xylibrary-0.2.13">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.xycode.xylibrary/xylibrary/0.2.13/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.xycode.xylibrary/xylibrary/0.2.13/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$APPLICATION_HOME_DIR$/gradle/gradle-2.13/caches/modules-2/files-2.1/com.xycode.xylibrary/xylibrary/0.2.13/415858a0d7856c718c4976dff4d5bb2895805fb1/xylibrary-0.2.13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

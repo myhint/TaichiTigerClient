@@ -109,6 +109,26 @@
         <activity
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="nosensor"
+            android:name=".activity.DetailGymActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.DetailGymCardActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.DetailCoachActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:name=".activity.DetailMassageActivity" />
+
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="nosensor"
             android:name=".activity.FlowRecordActivity" />
 
         <activity

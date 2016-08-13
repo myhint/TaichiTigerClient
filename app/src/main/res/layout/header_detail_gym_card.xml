@@ -114,7 +114,6 @@
             style="@style/ratingBar.Small"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/tvName"
             android:layout_marginLeft="0dp"
             android:layout_marginTop="2dp"
             android:progress="50" />
@@ -219,6 +218,8 @@
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_toLeftOf="@+id/ivDial"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="16dp"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent">
 
@@ -235,10 +236,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="0dp"
-                    android:layout_marginRight="12dp"
                     android:gravity="center_vertical"
                     android:singleLine="true"
-                    android:text="中国东莞市/广东省国东莞市/广东省国东莞市/广东省国省"
+                    android:text="中国东莞市/广东省国东莞市/广东省"
                     android:textColor="@color/textNormal"
                     android:textSize="@dimen/text_size_13" />
             </LinearLayout>

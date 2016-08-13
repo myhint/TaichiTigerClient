@@ -27,10 +27,10 @@ public class DetailGymActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_event_list);
+        setContentView(R.layout.activity_detail_gym);
         ButterKnife.bind(this);
 
-        toolbar.setTitle(R.string.title_event_list);
+        toolbar.setTitle(R.string.title_detail_gym);
         getThis().setSupportActionBar(toolbar);
         getThis().getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
@@ -43,10 +43,11 @@ public class DetailGymActivity extends BaseActivity {
 
             @Override
             protected ViewTypeUnit getViewTypeUnitForLayout(Object item) {
-                return new ViewTypeUnit(0, R.layout.item_event_list);
+                return null;
             }
         };
 
+        adapter.addHeader(1, R.layout.header_detail_gym);
         refresher.setup(getThis(), adapter, false, new XRefresher.OnSwipeListener() {
             @Override
             public void onRefresh() {

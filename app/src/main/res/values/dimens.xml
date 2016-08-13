@@ -18,4 +18,5 @@
     <dimen name="btnRoundRadius">72dp</dimen>
     <dimen name="btnFullHeight">52dp</dimen>
     <dimen name="cornerLineRadius">3dp</dimen>
+    <dimen name="itemHeight">56dp</dimen>
 </resources>

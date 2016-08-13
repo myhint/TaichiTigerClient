@@ -107,7 +107,7 @@
                 android:layout_toRightOf="@+id/ivLocation"
                 android:gravity="center_vertical"
                 android:maxLines="2"
-                android:text="中国东莞市/广东省国东莞市/广东省国东莞市/广东省国省"
+                android:text="中国东莞市国"
                 android:textColor="@color/textNormal"
                 android:textSize="@dimen/text_size_15" />
 

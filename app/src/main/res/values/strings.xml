@@ -40,4 +40,11 @@
     <string name="title_reset_password">重置密码</string>
     <string name="title_flow_record">流水记录</string>
     <string name="title_massage">推拿</string>
+    <string name="title_detail_gym">健身房详情</string>
+    <string name="title_detail_gym_card">健身卡详情</string>
+    <string name="title_detail_coach">私教详情</string>
+    <string name="title_detail_massage">项目详情</string>
+    <string name="text_masseuse_high">高级技师</string>
+    <string name="text_masseuse_special">特技技师</string>
+    <string name="text_masseuse_expert">专家技师</string>
 </resources>

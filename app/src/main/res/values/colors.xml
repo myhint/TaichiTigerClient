@@ -13,10 +13,11 @@
 
 
     <!-- item color -->
-    <color name="btnCommit">#f36523</color>
-    <color name="btnOption">#8c97cb</color>
+    <color name="colorCommit">#f36523</color>
+    <color name="colorOption">#8c97cb</color>
 
     <!-- background color -->
+    <color name="darkTransparent">#BB000000</color>
     <color name="bgDivider">#CCC</color>
     <color name="bgActivity">#FFF</color>
 

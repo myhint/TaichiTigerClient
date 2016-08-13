@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sivPic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:src="@mipmap/jianshenfangpic"
+            app:actualImageScaleType="fitXY"
+            app:placeholderImage="@mipmap/img_holder_img"
+            app:viewAspectRatio="2" />
+
+        <ImageView
+            android:id="@+id/ivFavor"
+            android:visibility="gone"
+            android:src="@mipmap/ic_heart_w"
+            android:layout_alignParentRight="true"
+            android:layout_margin="16dp"
+            android:padding="4dp"
+            android:layout_width="36dp"
+            android:layout_height="36dp" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:text="关刀解剖推拿"
+            android:textColor="@color/textWhite"
+            android:textSize="@dimen/text_size_16"
+            android:background="@color/darkTransparent"
+            android:padding="12dp"
+            android:layout_alignBottom="@id/sivPic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:weightSum="7"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <ImageView
+            android:src="@mipmap/ic_money"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:layout_width="0dp"
+            android:padding="4dp"
+            android:layout_height="36dp"/>
+
+        <LinearLayout
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvSalePrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="￥1200"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_18" />
+
+            <TextView
+                android:id="@+id/tvSoldCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2dp"
+                android:layout_gravity="center_vertical"
+                android:singleLine="true"
+                android:text="60秒/10人起订"
+                android:textColor="@color/textNormal"
+                android:textSize="@dimen/text_size_13" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnBuy"
+            android:layout_weight="2"
+            android:text="立即购买"
+            android:textSize="@dimen/text_size_13"
+            style="@style/btn"
+            android:theme="@style/btnOption"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="0dp"
+            android:layout_height="44dp" />
+    </LinearLayout>
+
+    <View style="@style/divider" />
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/side_margin"
+        android:layout_marginRight="@dimen/side_margin"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/itemHeight">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingBottom="0dp"
+            android:text="课程包含"
+            android:textColor="@color/textNormal"
+            android:textSize="@dimen/text_size_15" />
+
+        <LinearLayout
+            android:layout_marginLeft="32dp"
+            android:weightSum="3"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvMasseuseHigh"
+                android:background="@drawable/btn_circle_line_option"
+                android:gravity="center"
+                android:text="@string/text_masseuse_high"
+                android:textColor="@color/textLite"
+                android:textSize="@dimen/text_size_15"
+                android:layout_margin="2dp"
+                android:padding="8dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvMasseuseSpecial"
+                android:background="@drawable/btn_circle_line_option"
+                android:gravity="center"
+                android:text="@string/text_masseuse_special"
+                android:textColor="@color/textLite"
+                android:textSize="@dimen/text_size_15"
+                android:layout_margin="2dp"
+                android:padding="8dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvMasseuseExpert"
+                android:background="@drawable/btn_circle_line_option"
+                android:gravity="center"
+                android:text="@string/text_masseuse_expert"
+                android:textColor="@color/textLite"
+                android:textSize="@dimen/text_size_15"
+                android:layout_marginLeft="2dp"
+                android:padding="8dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <View style="@style/divider" />
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/side_margin"
+        android:layout_marginRight="@dimen/side_margin"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/itemHeight">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingBottom="0dp"
+            android:text="课程包含"
+            android:textColor="@color/textNormal"
+            android:textSize="@dimen/text_size_15" />
+
+        <LinearLayout
+            android:gravity="right|center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="32dp">
+
+            <com.taichitiger.client.view.ViewItem
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:text="健身房简介健身房简介"
+            android:textColor="@color/textNormal"
+            android:textSize="@dimen/text_size_13" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sivSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="0dp"
+            app:actualImageScaleType="fitCenter"
+            app:placeholderImage="@mipmap/img_holder_img" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingBottom="8dp"
+            android:text="教练介绍"
+            android:textColor="@color/textLite"
+            android:textSize="@dimen/text_size_13" />
+
+        <View style="@style/divider" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:paddingBottom="8dp"
+            android:text="室内图片"
+            android:textColor="@color/textLite"
+            android:textSize="@dimen/text_size_13" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sivPicDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="0dp"
+            app:actualImageScaleType="fitCenter"
+            app:placeholderImage="@mipmap/img_holder_img" />
+        <com.facebook.drawee.view.SimpleDraweeView
+
+            android:id="@+id/sivPicDetail2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="0dp"
+            app:actualImageScaleType="fitCenter"
+            app:placeholderImage="@mipmap/img_holder_img" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:paddingBottom="8dp"
+            android:text="购买须知"
+            android:textColor="@color/textLite"
+            android:textSize="@dimen/text_size_13" />
+
+        <View style="@style/divider" />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:singleLine="true"
+                android:text="有效期"
+                android:textColor="@color/textDark"
+                android:textSize="@dimen/text_size_15" />
+
+            <TextView
+                android:id="@+id/tvAvailableDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:layout_gravity="center_vertical"
+                android:singleLine="true"
+                android:text="2016年12月27日至2016年12月28日"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_13" />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:singleLine="true"
+                android:text="有效期"
+                android:textColor="@color/textDark"
+                android:textSize="@dimen/text_size_15" />
+
+            <TextView
+                android:id="@+id/tvUseDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:layout_gravity="center_vertical"
+                android:singleLine="true"
+                android:text="2016年12月27日至2016年12月28日"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_13" />
+
+
+</LinearLayout>
